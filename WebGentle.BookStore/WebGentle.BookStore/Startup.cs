@@ -30,11 +30,21 @@ namespace WebGentle.BookStore
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
+                endpoints.Map("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
                 });
             });
+
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.Map("/sagar", async context =>
+            //    {
+            //        await context.Response.WriteAsync("sagar");
+            //    });
+            //});
+
+
         }
     }
 }
