@@ -31,12 +31,18 @@ namespace WebGentle.BookStore
 
             app.UseRouting();
 
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapControllerRoute(
+            //        name: "Default",
+            //        pattern: "bookapp/{contoller=Home}/{action=Index}/{id?}"
+            //        );
+            //});
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapDefaultControllerRoute();
             });
-
-
 
             //app.UseEndpoints(endpoints =>
             //{

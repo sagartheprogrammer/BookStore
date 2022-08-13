@@ -23,11 +23,11 @@ namespace WebGentle.BookStore.Repository
         {
             return new List<BookModel>()
             {   
-                new BookModel(){Id = 1, Title = "title1", Author = "Authour1"},
-                new BookModel(){Id = 2, Title = "title2", Author = "Authour2"},
-                new BookModel(){Id = 3, Title = "title3", Author = "Authour3"},
-                new BookModel(){Id = 4, Title = "title4", Author = "Authour4"},
-                new BookModel(){Id = 5, Title = "title5", Author = "Authour5"},
+                new BookModel(){Id = 1, Title = "title1", Author = "Authour1", Description = "Description1"},
+                new BookModel(){Id = 2, Title = "title2", Author = "Authour2", Description = "Description2"},
+                new BookModel(){Id = 3, Title = "title3", Author = "Authour3", Description = "Description3"},
+                new BookModel(){Id = 4, Title = "title4", Author = "Authour4", Description = "Description4"},
+                new BookModel(){Id = 5, Title = "title5", Author = "Authour5", Description = "Description5"}
             };
         }
     }
